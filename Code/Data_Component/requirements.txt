@@ -1,0 +1,6 @@
+pandas
+pyarrow
+beautifulsoup4
+python-dotenv
+openai
+pydantic>=2

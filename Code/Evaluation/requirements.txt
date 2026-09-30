@@ -1,0 +1,7 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+python-dotenv
+openai
+pydantic>=2
