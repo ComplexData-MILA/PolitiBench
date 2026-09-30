@@ -8,10 +8,10 @@ The dataset is provided in four Parquet files:
 
 | File | Description |
 |---|---|
-| `PolitiFact_Data_k2_ALL.parquet` | Full dataset containing all available processing components for the `k=2` evidence extraction setting. |
-| `PolitiFact_Data_k4_ALL.parquet` | Full dataset containing all available processing components for the `k=4` evidence extraction setting. |
-| `PolitiFact_Data_k2_Simplified.parquet` | Simplified dataset containing the main article information and key generated components for `k=2`. |
-| `PolitiFact_Data_k4_Simplified.parquet` | Simplified dataset containing the main article information and key generated components for `k=4`. |
+| `PolitiFact_Data_k2_First_Half.parquet` | First half of the dataset containing all available processing components for the `k=2` evidence extraction setting. |
+| `PolitiFact_Data_k2_Second_Half.parquet` | Second half dataset containing all available processing components for the `k=2` evidence extraction setting. |
+| `PolitiFact_Data_k2_Simplified_First_Half.parquet` | First half of the simplified dataset containing the main article information and key generated components for `k=2`. |
+| `PolitiFact_Data_k2_Simplified_Second_Half.parquet` | Second half of the simplified dataset containing the main article information and key generated components for `k=2`. |
 
 ### Evidence extraction setting (`k`)
 
@@ -25,10 +25,6 @@ For example:
 The model may return fewer than `k` items when sufficient evidence is not available.
 
 ## Dataset Variants
-
-### `ALL`
-
-The `ALL` files contain the complete set of available data and intermediate components associated with the corresponding `k` setting. These files are intended for users who need access to the full processing pipeline or additional intermediate fields.
 
 ### `Simplified`
 
